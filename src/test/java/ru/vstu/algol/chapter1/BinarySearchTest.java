@@ -21,7 +21,7 @@ public class BinarySearchTest {
         testArr = new int[1024];
         Random rnd = ThreadLocalRandom.current();
         for (int i = 0; i < testArr.length; i++) {
-            testArr[i] = rnd.nextInt(100_000);
+            testArr[i] = rnd.nextInt();
         }
         Arrays.sort(testArr);
     }

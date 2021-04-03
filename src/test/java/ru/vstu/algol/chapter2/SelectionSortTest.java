@@ -47,7 +47,7 @@ class SelectionSortTest {
     }
 
     @Test
-    void testSelectionSortAsc() {
+    void testSelectionSortAsc_Primitive() {
         int[] arr = new int[100];
         Random rnd = ThreadLocalRandom.current();
         Arrays.setAll(arr, el -> rnd.nextInt(1000));
