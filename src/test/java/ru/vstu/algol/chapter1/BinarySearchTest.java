@@ -1,8 +1,7 @@
-package ru.vstu.algol;
+package ru.vstu.algol.chapter1;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import ru.vstu.algol.chapter1.BinarySearch;
 import ru.vstu.algol.exception.ElementNotFoundException;
 
 import java.util.Arrays;
